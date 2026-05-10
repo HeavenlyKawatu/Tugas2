@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | Heavenly Kawatu</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-transition">
+
+    <!-- ===== HEADER ===== -->
+    <header>
+
+        <a href="index.html" class="logo">
+            Heavenly Kawatu
+        </a>
+
+        <nav class="navbar">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="gallery.html" class="active">
+                Gallery
+            </a>
+
+            <a href="blog.html">
+                Blog
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    </header>
+
+    <!-- ===== GALLERY ===== -->
+    <section class="gallery-section">
+
+        <h1 class="section-title">
+            Random Gallery
+        </h1>
+
+        <p class="gallery-subtitle">
+            Just random captures from my daily life 📸
+        </p>
+
+        <!-- IMAGES -->
+        <div class="gallery-container">
+
+            <div class="gallery-card">
+                <img src="assets/image/img1.jpeg" alt="Gallery Image">
+                <p>Chill Moment</p>
+            </div>
+
+            <div class="gallery-card">
+                <img src="assets/image/img2.jpeg" alt="Gallery Image">
+                <p>Unexpected Shot</p>
+            </div>
+
+            <div class="gallery-card">
+                <img src="assets/image/img3.jpeg" alt="Gallery Image">
+                <p>Night Vibes</p>
+            </div>
+
+            <div class="gallery-card">
+                <img src="assets/image/img4.jpeg" alt="Gallery Image">
+                <p>Random Click</p>
+            </div>
+
+            <div class="gallery-card">
+                <img src="assets/image/img5.jpeg" alt="Gallery Image">
+                <p>Street View</p>
+            </div>
+
+            <div class="gallery-card">
+                <img src="assets/image/img6.jpeg" alt="Gallery Image">
+                <p>Simple Things</p>
+            </div>
+            <div class="gallery-card">
+                <img src="assets/image/img7.jpeg" alt="Gallery Image">
+                <p>My Happiness</p>
+            </div>
+            <div class="gallery-card">
+                <img src="assets/image/img8.jpeg" alt="Gallery Image">
+                <p>That Night</p>
+            </div>
+
+        </div>
+
+        <!-- VIDEOS -->
+        <h2 class="video-title">
+            Random Videos
+        </h2>
+
+        <div class="video-container">
+
+            <div class="video-card">
+
+                <video controls>
+                    <source src="assets/video/vid1.mp4" type="video/mp4">
+                </video>
+
+                <p>Barongsai Tiktokan</p>
+
+            </div>
+
+            <div class="video-card">
+
+                <video controls>
+                    <source src="assets/video/vid2.mp4" type="video/mp4">
+                </video>
+
+                <p>Random Video Barongsai</p>
+
+            </div>
+
+            <div class="video-card">
+
+                <iframe
+                src="https://www.youtube.com/embed/qoXi7CEtZl0"
+                allowfullscreen>
+                </iframe>
+
+                <p>Favourite Youtuber</p>
+
+            </div>
+
+        </div>
+
+        <!-- LIGHTBOX -->
+        <div class="lightbox" id="lightbox">
+
+            <span class="close">
+                &times;
+            </span>
+
+            <span class="prev">
+                &#10094;
+            </span>
+
+            <img id="lightbox-img" src="" alt="Preview">
+
+            <span class="next">
+                &#10095;
+            </span>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Heavenly Kawatu
+        </p>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>

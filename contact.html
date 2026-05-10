@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Heavenly Kawatu</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-transition">
+
+    <!-- ===== HEADER ===== -->
+    <header>
+
+        <a href="index.html" class="logo">
+            Heavenly Kawatu
+        </a>
+
+        <nav class="navbar">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="gallery.html">
+                Gallery
+            </a>
+
+            <a href="blog.html">
+                Blog
+            </a>
+
+            <a href="contact.html" class="active">
+                Contact
+            </a>
+
+        </nav>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    </header>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact-section">
+
+        <h1 class="section-title">
+            Contact Me
+        </h1>
+
+        <p class="contact-subtitle">
+            Feel free to reach out anytime
+        </p>
+
+        <div class="contact-container">
+
+            <!-- LEFT -->
+            <div class="contact-info">
+
+                <h2>
+                    Get In Touch
+                </h2>
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    evankawatu@email.com
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    0821xxxxxxxx
+                </p>
+
+                <div class="contact-social">
+
+                    <a href="https://github.com/HeavenlyKawatu"
+                    target="_blank">
+
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+
+                    <a href="https://www.instagram.com/evansk_26"
+                    target="_blank">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                    <a href="https://twitter.com"
+                    target="_blank">
+
+                        <i class="fa-brands fa-x-twitter"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT -->
+            <div class="contact-form">
+
+                <h2>
+                    Send Message
+                </h2>
+
+                <form onsubmit="sendWhatsApp(); return false;">
+
+                    <input type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required>
+
+                    <input type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required>
+
+                    <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Your Message"
+                    required></textarea>
+
+                    <button type="submit" class="btn">
+                        Send via WhatsApp
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Heavenly Kawatu
+        </p>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
